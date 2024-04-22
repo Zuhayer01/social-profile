@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+
+#logo {
+    font-family: "Borel", cursive;
+    color: rgb(22, 129, 129);
+}
+
+#btn {
+    transition: all ease 0.4s;
+}
+
+#btn:hover {
+    background-color: #168181;
+}
+
+#wrapper {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 7px 7px 14px #d9d9d9,
+        -7px -7px 14px #ffffff;
+}
+
+#wrapper ul li a {
+    transition: all ease 0.2s;
+}
+
+#wrapper ul li a:hover {
+    color: #168181;
+}
+
+#exp-div {
+    border-radius: 24px;
+    background: #ffffff;
+    box-shadow: 12px 12px 24px #e0e0e0, inset -12px -12px 24px #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* Width of the scrollbar */
+}
+
+#card {
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #cfcfcf,
+        inset -5px -5px 10px #ffffff;
+}
